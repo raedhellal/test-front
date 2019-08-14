@@ -14,6 +14,7 @@ const ImageWrapper = styled.div`
 
   img {
     padding: 0 5px;
+    height: 150px;
   }
 `;
 
@@ -23,10 +24,10 @@ const About: React.FC = () => (
     <p data-testid="text">This boilerplate uses Nextjs, React v16.8 and Styled components</p>
     <ImageWrapper>
       <div>
-        <img data-testid="img" src="/static/jslogo.png" alt="js" height="150px" />
-        <img data-testid="img" src="/static/react.png" alt="js" height="150px" />
-        <img data-testid="img" src="/static/nextjs.png" alt="js" height="150px" />
-        <img data-testid="img" src="/static/styled.png" alt="js" height="150px" />
+        <img data-testid="img" src="/static/jslogo.png" alt="js"/>
+        <img data-testid="img" src="/static/react.png" alt="js" />
+        <img data-testid="img" src="/static/nextjs.png" alt="js"/>
+        <img data-testid="img" src="/static/styled.png" alt="js"/>
       </div>
     </ImageWrapper>
   </Layout>
