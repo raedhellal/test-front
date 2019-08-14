@@ -5,6 +5,8 @@ This repository is used as a code base for the code test. It uses the latest ver
 
 ## Instructions
 
+You must fork this project and provide your url later
+
 All pages are listed in the `/pages` folder and all components in `/components`
 
 To start your test insall depencies:
