@@ -14,6 +14,10 @@ const Index: FunctionComponent = () => {
         <li>Display all blog posts in the blog page (title, text, image and date when they are available). The posts
           will have to be sorted by date
         </li>
+        <li>
+          The articles must be SEO friendly <a href="https://nextjs.org/docs#fetching-data-and-component-lifecycle"
+                                               target="_blank">(fetching-data-and-component-lifecycle)</a>
+        </li>
         <li>Implement a search bar to filter the articles by their names
         </li>
         <li>Implement a select to choose the sorting by desc or asc</li>
