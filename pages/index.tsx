@@ -15,8 +15,7 @@ const Index: FunctionComponent = () => {
           will have to be sorted by date
         </li>
         <li>
-          The articles must be SEO friendly <a href="https://nextjs.org/docs#fetching-data-and-component-lifecycle"
-                                               target="_blank">(fetching-data-and-component-lifecycle)</a>
+          I'll we a plus if articles are SEO friendly (render by the server side)
         </li>
         <li>Implement a search bar to filter the articles by their names
         </li>
